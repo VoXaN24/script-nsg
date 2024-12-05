@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Syntis SARL (10Gbps, France, Bordeaux)</name>
+        <enabled>true</enabled>
+        <url>https://mir01.syntis.net/rockylinux/9/live/x86_64/Rocky-9-XFCE-x86_64-latest.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

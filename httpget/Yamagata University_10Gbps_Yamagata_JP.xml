@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Yamagata University (10Gbps, Yamagata, Japan)</name>
+        <enabled>true</enabled>
+        <url>https://ftp.yz.yamagata-u.ac.jp/pub/linux/almalinux/9/live/x86_64/AlmaLinux-9-latest-x86_64-Live-XFCE.iso</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

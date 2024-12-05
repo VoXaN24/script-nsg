@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>Multacom (100Mbps, Los Angeles, US)</name>
+        <enabled>true</enabled>
+        <url>http://74.48.136.174:9001/backend/garbage.php?&ckSize=1000</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>TOP 37 (20Gbps, Brazil, Formiga)</name>
+        <enabled>true</enabled>
+        <url>http://br-top37-formiga-01-20g.nperf.net/1GiB.dat</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
