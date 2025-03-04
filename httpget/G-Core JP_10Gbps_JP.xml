@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>G-Core JP (10Gbps, Tokyo, Japan)</name>
+        <enabled>true</enabled>
+        <url>https://cc1-speedtest.tools.gcore.com/speedtest-backend/garbage.php?ckSize=100</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
