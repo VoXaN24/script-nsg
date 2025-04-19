@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <test>
+    <cases>
+      <case>
+        <type>get-http</type>
+        <name>NOS Lisboa (10Gbps, Lisboa, Portugal)</name>
+        <enabled>true</enabled>
+        <url>https://pt-nos-lisboa-01-10g.nperf.net:8443/1GiB.dat</url>
+        <repeat>2</repeat>
+        <duration>60</duration>
+        <pause>10</pause>
+        <concurrence>1</concurrence>
+      </case>
+    </cases>
+  </test>
+</config>
